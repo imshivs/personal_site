@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Shivani Negi </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/insta.js"></script>
+
+        <meta property="og:title" content="Luke Beard -Creative Director at Exposure"/>
+        <meta property="og:type" content="person"/>
+        <meta property="og:url" content="http://www.luke.so"/>
+        <meta property="og:image" content="http://luke.so/img/me.jpg"/>
+        <meta property="og:site_name" content="Luke Beard -Creative Director at Exposure"/>
+        <link rel="shortcut icon" type="image/x-icon" href="http://lukesbeard.com/favicon.ico">
+
+        <script type="text/javascript" src="//use.typekit.net/eau8ozw.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<script type="text/javascript">
+    var userFeed = new Instafeed({
+        get: 'user',
+        userId: 192,
+        accessToken: '192.467ede5.afe682a3bfa64fd1bdc4ddbebe65267b',
+        resolution: 'standard_resolution',
+        limit: '1'
+    });
+    userFeed.run();
+
+    $.getJSON("https://api.twitter.com/1/statuses/user_timeline/lukesbeard.json?count=1&include_rts=1&callback=?", function(data) {
+     $("#twitter").html(data[0].text);
+});
+</script>
+
+    </head>
+    <body>
+
+        <div id="brucewillis">
+
+            <header>
+                 <h1 class="fadeIn">Shivani<br>Negi</h1>
+                  <div class="details fadeIn" style="-webkit-animation-delay:0.3s;">
+                    <h3>Aspiring Software Developer and Tinkerer</a>.</h3>
+                    <h4>Currently based in Portland,OR</h4>
+                    <hr>
+                  </div>
+            </header>
+
+            <hr class="big">
+        </div>
+
+
+       
+        <hr class="big">
+
+        <section class="email-me">
+            <a href="mailto:negishivs@gmail.com" class="mail-me-dawg">Email me things</a>
+            <b>Questions, smoothie advice or anything really.</b>
+
+        
+
+        </section>
+
+        <hr class="big">
+
+
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+       <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-7192572-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+    </body>
+</html>
