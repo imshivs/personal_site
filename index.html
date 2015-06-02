@@ -7,6 +7,20 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
+
+
+        <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="typed.js"></script>
+        <script>
+  $(function(){
+      $(".element").typed({
+        strings: ["I'm an aspiring web developer.", "I'm a tinkering enthusiast."],
+        typeSpeed: 0
+      });
+  });
+</script>
+
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
 
@@ -44,14 +58,14 @@
 
         <div id="brucewillis">
 
-            <header>
+            
                  <h1 class="fadeIn">Shivani<br>Negi</h1>
                   <div class="details fadeIn" style="-webkit-animation-delay:0.3s;">
-                    <h3>Aspiring Software Developer and Tinkerer</a>.</h3>
+                    <div class="element"></div>
                     <h4>Currently based in Portland,OR</h4>
                     <hr>
                   </div>
-            </header>
+            
 
             <hr class="big">
         </div>
