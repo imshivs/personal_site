@@ -2587,7 +2587,7 @@ a {
   color: #232323; }
   #brucewillis header {
     position: relative;
-    padding: 0% 0 30% 0;
+    padding: 0% 0 30vw 0;
     text-align: center;
     background: url("/img/me_winnie.jpg") center bottom no-repeat;
     background-size: 55%; }
