@@ -2552,11 +2552,12 @@ hr {
     margin: 15% auto; }
 
 h1{
-  font-family: "Rancho",sans-serif;
+  font-family: "Fjalla One",sans-serif;
+/*  font-style:italic;*/
   /*font-weight: bolder;*/
   color: #CEAC41; }
   h2{
-    font-family: sans-serif;
+    font-family: "Cantarell";
   font-weight: bolder; 
 
   }
@@ -2592,23 +2593,23 @@ a {
     background: url("/img/me_winnie.jpg") center bottom no-repeat;
     background-size: 55%; }
     #brucewillis header h1 {
-      line-height: 38vw;
+      line-height: 40vw;
       font-size: 20vw;
       margin: -10;
-      margin-top: -11%; }
+      margin-top: -8%; }
     #brucewillis header .details {
       position: absolute;
       top: 25%;
       width: 100%; }
     #brucewillis header h3 {
-      font-family: sans-serif;
+      font-family: "Cantarell";
       width: 100%;
       font-size: 3.8vw;
       margin: 0;
       font-weight: 300; }
     #brucewillis header h4 {
       font-size: 2.2vw;
-      font-family: sans-serif; }
+      font-family: "Cantarell"; }
 
 #social{
   display: inline-block;
@@ -2670,17 +2671,19 @@ a {
 .email-me {
   text-align: center;
   padding: 0 0 5% 0;
-  font-family: sans-serif; }
+}
   .email-me b {
     display: block;
     font-size: 3.0vw;
-    font-weight: initial }
+    font-weight: initial; 
+  font-family: "Cantarell"}
   .email-me a.mail-me-dawg {
     font-size: 10vw;
     color: #CEAC41;
     font-weight: bold;
     letter-spacing: -0px;
-    display: inline-table; }
+    display: inline-table;
+    font-family: "Fjalla One"; }
 
 a.archive {
   display: inline-block;
