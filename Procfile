@@ -1,1 +1,1 @@
-web: ws
+web: ws --port 5000
