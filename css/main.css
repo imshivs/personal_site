@@ -2570,7 +2570,7 @@ a {
   a:hover {
     opacity: 0.4; }
   a.exposure {
-    background: url("/img/exposure-logo.png") center center no-repeat;
+   /* background: url("/img/exposure-logo.png") center center no-repeat;*/
     background-size: 100%;
     padding: 0% 10%;
     position: relative;
@@ -2592,10 +2592,10 @@ a {
     background: url("/img/me_winnie.jpg") center bottom no-repeat;
     background-size: 55%; }
     #brucewillis header h1 {
-      line-height: 40vw;
-      font-size: 24vw;
+      line-height: 38vw;
+      font-size: 20vw;
       margin: -10;
-      margin-top: -5%; }
+      margin-top: -11%; }
     #brucewillis header .details {
       position: absolute;
       top: 25%;
