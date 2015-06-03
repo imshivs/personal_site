@@ -2552,8 +2552,9 @@ hr {
     margin: 15% auto; }
 
 h1{
-  font-family: "caviar dreams",sans-serif;
-  font-weight: bolder; }
+  font-family: "Megrim",sans-serif;
+  font-weight: bolder;
+  color: #CEAC41; }
   h2{
     font-family: sans-serif;
   font-weight: bolder; 
@@ -2588,8 +2589,8 @@ a {
     position: relative;
     padding: 0% 0 30% 0;
     text-align: center;
-    background: url("/img/me_sunset.jpg") center bottom no-repeat;
-    background-size: 100%; }
+    background: url("/img/me_winnie.jpg") center bottom no-repeat;
+    background-size: 63%; }
     #brucewillis header h1 {
       line-height: 36vw;
       font-size: 16vw;
@@ -2600,14 +2601,14 @@ a {
       top: 25%;
       width: 100%; }
     #brucewillis header h3 {
-      font-family: "futura-pt",sans-serif;
+      font-family: sans-serif;
       width: 100%;
-      font-size: 3.6vw;
+      font-size: 3.8vw;
       margin: 0;
       font-weight: 300; }
     #brucewillis header h4 {
-      font-size: 2.0vw;
-      font-family: "caviar dreams",sans-serif; }
+      font-size: 2.2vw;
+      font-family: sans-serif; }
 
 #social{
   display: inline-block;

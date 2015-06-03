@@ -9,66 +9,34 @@
 
 
 
-
-        <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-        <script src="typed.js"></script>
-        <script>
-  $(function(){
-      $(".element").typed({
-        strings: ["I'm an aspiring web developer.", "I'm a tinkering enthusiast."],
-        typeSpeed: 0
-      });
-  });
-</script>
-
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
 
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
-        <script src="js/insta.js"></script>
-
-        <meta property="og:title" content="Luke Beard -Creative Director at Exposure"/>
-        <meta property="og:type" content="person"/>
-        <meta property="og:url" content="http://www.luke.so"/>
-        <meta property="og:image" content="http://luke.so/img/me.jpg"/>
-        <meta property="og:site_name" content="Luke Beard -Creative Director at Exposure"/>
-        <link rel="shortcut icon" type="image/x-icon" href="http://lukesbeard.com/favicon.ico">
-
-        <script type="text/javascript" src="//use.typekit.net/eau8ozw.js"></script>
-        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
-<script type="text/javascript">
-    var userFeed = new Instafeed({
-        get: 'user',
-        userId: 192,
-        accessToken: '192.467ede5.afe682a3bfa64fd1bdc4ddbebe65267b',
-        resolution: 'standard_resolution',
-        limit: '1'
-    });
-    userFeed.run();
-
-    $.getJSON("https://api.twitter.com/1/statuses/user_timeline/lukesbeard.json?count=1&include_rts=1&callback=?", function(data) {
-     $("#twitter").html(data[0].text);
-});
-</script>
+       <link href='http://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700' rel='stylesheet' type='text/css'>
+       <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+       <link href='http://fonts.googleapis.com/css?family=Carrois+Gothic+SC' rel='stylesheet' type='text/css'>
+       <link href='http://fonts.googleapis.com/css?family=Cabin+Sketch' rel='stylesheet' type='text/css'>
+       <link href='http://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
+ 
 
     </head>
     <body>
 
-        <div id="brucewillis">
+      <div id="brucewillis">
 
-            
+            <header>
                  <h1 class="fadeIn">Shivani<br>Negi</h1>
                   <div class="details fadeIn" style="-webkit-animation-delay:0.3s;">
-                    <div class="element"></div>
-                    <h4>Currently based in Portland,OR</h4>
+                    <h3><span class="element"></span></h3>
+                    <h4>Currently based in Atlanta, GA.</h4>
                     <hr>
                   </div>
-            
+            </header>
 
             <hr class="big">
         </div>
+
 
 
 <div id="social">
@@ -99,20 +67,18 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
 
         <script src="js/main.js"></script>
+                <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="typed.js"></script>
+        <script>
+  $(function(){
+      $(".element").typed({
+        strings: ["I'm an aspiring web developer.", "I'm a tinkerer", "I'm an avid Blazers fan", "I'm a student at Geogia Tech", "I'm a budding entreprenuer"],
+        typeSpeed: 0
+      });
+  });
+</script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-       <script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-7192572-2']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
     </body>
 </html>
