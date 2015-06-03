@@ -2704,7 +2704,7 @@ a.archive {
   .email-me {
     padding: 1% 0; }
     .email-me b {
-      font-size: 2.3vw; }
+      font-size: 2.5vw; }
 
   a.archive {
     font-size: 2.2vw; }
@@ -2736,7 +2736,8 @@ a.archive {
   #brucewillis header {
     padding: 0% 0 24vw 0; }
     #brucewillis header h1 {
-      line-height: 38vw;
+      font-size:26vw;
+      line-height: 42vw;
       letter-spacing: 0;
       margin-top: -5vw; }
     #brucewillis header h3 {
