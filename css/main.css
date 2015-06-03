@@ -2734,7 +2734,7 @@ a.archive {
       line-height: 6vw; } }
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
   #brucewillis header {
-    padding: 0% 0 58% 0; }
+    padding: 0% 0 30vw 0; }
     #brucewillis header h1 {
       line-height: 43vw;
       letter-spacing: 0; }
