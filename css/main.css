@@ -2590,7 +2590,7 @@ a {
     padding: 0% 0 30% 0;
     text-align: center;
     background: url("/img/me_winnie.jpg") center bottom no-repeat;
-    background-size: 63%; }
+    background-size: 55%; }
     #brucewillis header h1 {
       line-height: 36vw;
       font-size: 16vw;
@@ -2615,12 +2615,15 @@ a {
     list-style-type: none;
 
 }
+#social h3{
+  font-family: sans-serif;
+}
   #social ul {
    margin:0;
    padding:0;
    list-style-type: none;
    text-align: center;
-   left:50%;
+   display: inline-block;
   }
    
   #social ul li {
@@ -2629,20 +2632,20 @@ a {
    display:inline-block;
   }
   #social ul li a i { 
-    display: block;
-    background: #205D7A;
-    color: #fff;
-    width: 50px;
-    height: 30px;
-/*    border-radius: 20px;*/
-    font-size: 25px;
-    text-align: center;
-    margin-right: 10px;
-    padding-top: 20%;
+   display: block;
+  background: #205D7A;
+  color: #fff;
+  width: 10vw;
+  height: 6.8vw;
+  /* border-radius: 6vw; */
+  font-size: 5vw;
+  text-align: center;
+  margin-top: 5vw;
+  padding-top: 3.3vw;
   }
    
-  #social .fa-facebook {
-   background:#3b5998
+  #social .fa-briefcase {
+   background:#087E5B
   } 
   #social .fa-linkedin {
    background:#007bb6
@@ -2650,8 +2653,8 @@ a {
   #social .fa-twitter {
    background:#00aced
   }
-  #social .google-plus {
-   background:#dd4b39
+  #social .ga-github {
+   background: white
   }
    
 
@@ -2667,15 +2670,17 @@ a {
 .email-me {
   text-align: center;
   padding: 0 0 5% 0;
-  font-family: "futura-pt",sans-serif; }
+  font-family: sans-serif; }
   .email-me b {
     display: block;
-    font-size: 1.5vw; }
+    font-size: 3.0vw;
+    font-weight: initial }
   .email-me a.mail-me-dawg {
-    font-size: 13vw;
+    font-size: 10vw;
+    color: #CEAC41;
     font-weight: bold;
     letter-spacing: -0px;
-    display: block; }
+    display: inline-table; }
 
 a.archive {
   display: inline-block;
@@ -2684,7 +2689,7 @@ a.archive {
   font-size: 1.1vw;
   font-weight: bold;
   opacity: 0.5;
-  font-family: "futura-pt",sans-serif; }
+  font-family: sans-serif; }
   a.archive:hover {
     opacity: 1; }
 
