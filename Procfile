@@ -1,1 +1,1 @@
-web: swank --port 3000
+web: swank --port $PORT
