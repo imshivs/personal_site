@@ -2737,7 +2737,8 @@ a.archive {
     padding: 0% 0 24vw 0; }
     #brucewillis header h1 {
       line-height: 38vw;
-      letter-spacing: 0; }
+      letter-spacing: 0;
+      margin-top: -5vw; }
     #brucewillis header h3 {
       letter-spacing: 0;
       font-size: 4.9vw;
