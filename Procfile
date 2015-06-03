@@ -1,1 +1,1 @@
-web: ws --port 5000
+web: npm start
