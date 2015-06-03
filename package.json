@@ -3,6 +3,7 @@
   "description": "personal site",
   "version": "1.0.0",
   "scripts": {
-    "start": "swank --port 5000"
+    "start": "swank --port 3000"
   }
+
 }
