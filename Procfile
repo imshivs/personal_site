@@ -1,1 +1,1 @@
-web: npm start
+web: swank --port 5000
