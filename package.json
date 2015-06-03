@@ -1,10 +1,8 @@
 {
   "name": "my-web-app",
+  "description": "personal site",
   "version": "1.0.0",
   "scripts": {
-    "start": "ws --port 5000"
-  },
-  "devDependencies": {
-    "local-web-server": "^0.5.19"
+    "start": "swank --port 5000"
   }
 }
